@@ -1,0 +1,11 @@
+{
+  "name": "cloud-cost-killer",
+  "version": "1.0.0",
+  "description": "Automated serverless AWS cost-containment infrastructure webhook.",
+  "main": "handler.js",
+  "type": "module",
+  "dependencies": {
+    "@aws-sdk/client-ec2": "^3.500.0",
+    "@aws-sdk/client-s3": "^3.500.0"
+  }
+}
